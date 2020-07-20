@@ -1,0 +1,26 @@
+<!-- Question-3) Mark-Grade -->
+<html>
+    <head>
+        <title>Example for Mark-Grade</title>
+    </head>
+    <body>
+        <h1>Mark-Grade</h1>
+        <script>
+            var mark = prompt("Enter your mark: ");
+            var grade;
+            if(mark >= 80 ){
+                grade = 'O';
+            }
+            else if(mark <80 && mark >= 70){
+                grade = 'A';
+            }
+            else if(mark <70 && mark >= 50){
+                grade = 'B';
+            }
+            else{
+                grade = 'F';
+            }
+            console.log(`Your Grade is ${grade}`);
+        </script>
+    </body>
+</html>
